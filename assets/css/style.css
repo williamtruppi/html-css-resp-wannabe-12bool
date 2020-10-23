@@ -1,5 +1,6 @@
 body{
   text-align: center;
+  font-size: 25px;
 }
 
 .margin_top_bot_40{
@@ -33,9 +34,20 @@ body{
   padding: 30px
 }
 
-@media screen and (max-width: 768px){
+@media all and (max-width: 768px){
+
+  body{
+    font-size: 20px;
+  }
 
   #lezioni img, #steps img, #why img{
     height: 150px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+
+  body{
+    font-size: 20px;
   }
 }
