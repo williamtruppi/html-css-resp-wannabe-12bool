@@ -32,3 +32,10 @@ body{
   border-radius: 50%;
   padding: 30px
 }
+
+@media screen and (max-width: 768px){
+
+  #lezioni img, #steps img, #why img{
+    height: 150px;
+  }
+}
